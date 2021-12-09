@@ -23,7 +23,7 @@ endfunction
 function! s:ShowResults(data)
   call setqflist([])
   caddexpr a:data
-  copen
+  botright copen
   let s:chunks = [""]
 endfunction
 
